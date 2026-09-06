@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+    background: #333;
+    padding-bottom: 10px;
+    height: 75px;
+    justify-content: flex-end;
+
+}
+
+nav span {
+    display: flex;
+    justify-content: space-between;
+    width: 64.0%;
+    padding-left: 10px;
+    padding-bottom: 11vh;
+}
+
+
+.nav {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+
+nav a img {
+    position: absolute;
+    left: 15%;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+nav span a:hover {
+    transform: scale(1.1);
+    color: #fff;
+    text-decoration: underline;
+}
+
+nav img:hover {
+    cursor: pointer;
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(118, 111, 111);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 50%;
+    float: left;
+    text-decoration: none;
+    height: 100%;
+}
+
+.Explore {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    width: 50%;
+    float: right;
+    height: 100%;
+    align-items: center;
+}
+
+.fast_food {
+    display: block;
+}
+
+.explore img:hover {
+    transform: scale(1.05);
+
+}
+
+.explore img {
+    border-radius: 2vh;
+    border-style: inset;
+    border-color: #333;
+    transition-duration: 0.2s;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    justify-items: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-shadow: 0 0 60px;
+    line-height: 30px;
+}
+
+.ff {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.fastFood {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fastFood img {
+    border-radius: 5vh;
+    border-style: inset;
+    border-color: #333;
+    transition-duration: 0.5s;
+}
+
+.fastFood img:hover {
+    transform: scale(1.05);
+
+}
+
+.fastRightHeader {
+    padding-right: 140px;
+}
+
+.fastLeftHeader {
+    padding-right: 250px;
+}
+
+.fastButtonL {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.fastButtonR {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+.fastFood p {
+    font-family: "Pattaya", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(59, 56, 56) }
+
+.ff>h1 {
+    font-family: "Roboto-regular-italic", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fastLeftHeader {
+    font-family: "Roboto-black", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.fastRightHeader {
+    font-family: "Roboto-black", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.cf {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.CFood {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CFood img {
+    border-radius: 5vh;
+    border-style: inset;
+    border-color: #333;
+    transition-duration: 0.5s;
+}
+
+.CFood img:hover {
+    transform: scale(1.05);
+
+}
+
+.fastRightHeader {
+    padding-right: 140px;
+}
+
+.fastLeftHeader {
+    padding-right: 250px;
+}
+
+.fastButtonL {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.fastButtonR {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+.CFood p {
+    font-family: "Pattaya", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(59, 56, 56) }
+
+.Cf>h1 {
+    font-family: "Roboto-regular-italic", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fastLeftHeader {
+    font-family: "Roboto-black", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.fastRightHeader {
+    font-family: "Roboto-black", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.caption {
+    font-size: 20px;
+    text-shadow: none;
+}
