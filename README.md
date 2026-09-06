@@ -18,4 +18,4 @@ This project was developed to learn the core principles of web design without re
 
 ## Live Site
 Hosted on GitHub Pages:
-https://<ryanjz-hub>.github.io/ez-recipes/
+https://ryanjz-hub.github.io/eZ-recipe-app/
